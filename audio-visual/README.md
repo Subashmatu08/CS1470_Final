@@ -70,7 +70,7 @@ PYTHONPATH=$PWD python av_hubert/avhubert/eval.py
 ### 2.5 Ablation
 You can run your ablation.py file to get your ablation results:
 ```
-python av_hubert/avhubert/plot_ablation.py --csv ablation_results.csv
+python ablation.py --real_dir features_real --fake_dir features_fake …
 ```
 Then, plot your results by running:
 ```
