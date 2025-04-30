@@ -67,4 +67,31 @@ Finally, you can evaluate by running the following command:
 cd FACTOR
 PYTHONPATH=$PWD python av_hubert/avhubert/eval.py
 ```
-
+##2.5 Ablation
+You can run your ablation.py file to get your ablation results:
+```
+python av_hubert/avhubert/plot_ablation.py --csv ablation_results.csv
+```
+Then, plot your results by running:
+```
+python plot_ablation.py --csv ablation_results.csv
+```
+### 2.5 MLP
+First, run mlp.py like so:
+```
+cd FACTOR/audio-visual
+python mlp.py
+```
+Next, run your training file:
+```
+python train_mlp.py \
+  --real_dir features_real \
+  --fake_dir features_fake \
+  --output mlp.pt \
+  --epochs 20 \
+  --batch_size 32
+```
+And finally your test file:
+```
+python test_mlp.py
+```
