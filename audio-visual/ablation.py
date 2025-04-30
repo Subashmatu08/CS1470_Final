@@ -114,7 +114,7 @@ def run_ablation(real_dir, fake_dir, out_csv):
             "real_higher": 1-fake_higher
         })
 
-    # — Fig 3b: λ-percentile —
+    # — Fig 3b: -percentile —
     for lam in [0,1,3,5,10,20,50,100]:
         rs_real = av_sim(real_a, real_v, lam)
         rs_fake = av_sim(fake_a, fake_v, lam)
