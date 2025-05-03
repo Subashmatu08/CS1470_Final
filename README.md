@@ -7,3 +7,6 @@ Create a virtual conda environment, activate it, and install the requirements fi
 ## FACTOR, AV-HuBERT and FaceX-Zoo
 
 This implementation is based off of FACTOR, AV-HuBERT, and FaceX-Zoo; please refer to the original [AV-HuBERT](https://github.com/facebookresearch/av_hubert.git), [FaceX-Zoo](https://github.com/JDAI-CV/FaceX-Zoo.git), and [FACTOR](https://github.com/talreiss/FACTOR.git) repositories. 
+
+## AV and Face Swapping
+For the instructions on the individual implementations, please refer the Readme.md files in their respective folders
